@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+ 
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color:white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.nav-bar{
+    background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  
+}
+  ul li a:hover{
+      color: red 
+  }
+  .logo{
+    float: left;
+    margin-right:25%;
+    margin-top:15px;
+
+}
+  .long{
+      width: 100%;
+  }
+
+.sub-tit{
+
+    color: white;   
+}
+.cover {
+    width: 100%;
+    height: 400px;
+    background: url('C:/Users/Sameh felhi/Desktop/gomycode/first step/res/course.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-sizing: border-box;
+    display:inline-block;
+}
+
+.cover .heading {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+  
+   
+}
+
+#btn{
+    background-color:rgb(180, 176, 230);
+    margin: 10px;
+    padding: 0%;
+}
+.img-index{
+
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-style{
+    width:150px;
+    height:150px;
+}
+.header{
+    color: white;
+    margin-left:35%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.img-course{
+    margin:50px;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+}
